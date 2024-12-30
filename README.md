@@ -3,7 +3,7 @@
   꼭 본인 정보로 교체해서 사용해주세요!
 -->
 
-<h1 align="center">Hi there, I'm username! 👋</h1>
+<h1 align="center">Hi there, I'm 1214alex! 👋</h1>
 
 <div align="center">
   <img src="https://avatars.githubusercontent.com/u/0000000?v=4" alt="프로필 사진" width="150" />
@@ -26,7 +26,7 @@
 ---
 
 ## 🙋‍♂️ About Me
-- **이름**: 홍길동 (예시)
+- **이름**: 이성준
 - **관심사**: 웹 개발, 정보보안, 머신러닝, 오픈소스 기여
 - **간단 소개**: 
   - 개발을 사랑하는 사람입니다. 새로운 걸 배울 때 항상 즐거움을 느끼고,  
@@ -59,8 +59,8 @@
 ## 📈 GitHub Stats
 <div align="center">
   <!-- 이건 예시 GitHub Stats, 본인 계정으로 바꿔야 해 -->
-  <img src="https://github-readme-stats.vercel.app/api?username=username&show_icons=true&theme=radical" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=username&layout=compact&theme=radical" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=1214alex&show_icons=true&theme=radical" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=1214alex&layout=compact&theme=radical" height="150" />
 </div>
 
 <!--
