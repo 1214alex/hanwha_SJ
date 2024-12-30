@@ -41,7 +41,7 @@
 - **Back-End**: ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
 - **Database**: ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-> 위 기술 스택은 예시야. 사용 중인 기술, 공부해볼 예정인 기술 등을 다양하게 적어줘!
+
 
 ---
 
@@ -58,7 +58,7 @@
 
 ## 📈 GitHub Stats
 <div align="center">
-  <!-- 이건 예시 GitHub Stats, 본인 계정으로 바꿔야 해 -->
+ 
   <img src="https://github-readme-stats.vercel.app/api?username=1214alex&show_icons=true&theme=radical" height="150" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=1214alex&layout=compact&theme=radical" height="150" />
 </div>
