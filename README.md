@@ -18,7 +18,7 @@
   <a href="https://linkedin.com/in/yourlinkedin">
     <img src="https://img.shields.io/badge/LinkedIn-username-blue?style=flat-square&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://yourblog.com">
+  <a href="velog(https://velog.io/@1214alex/posts)">
     <img src="https://img.shields.io/badge/Blog-YourBlog-orange?style=flat-square&logo=blogger&logoColor=white"/>
   </a>
 </div>
