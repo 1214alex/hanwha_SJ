@@ -74,7 +74,7 @@
 ## 📫 Contact
 - **Email**: jerry20011214@gmail.com  
 - **LinkedIn**: [linkedin.com/in/username](https://linkedin.com/in/username)  
-- **Blog**: ([https://yourblog.com](https://velog.io/@1214alex/posts))
+- **Blog**: ([velog](https://velog.io/@1214alex/posts))
 
 언제든 편하게 연락주세요! 협업 제안, 질문, 잡담 모두 환영합니다 🙌
 
