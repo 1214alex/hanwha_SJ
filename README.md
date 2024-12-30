@@ -12,7 +12,7 @@
 ---
 
 <div align="center">
-  <a href="mailto:youremail@example.com">
+  <a href="mailto:jerry20011214@gmail.com">
     <img src="https://img.shields.io/badge/Email-youremail@example.com-red?style=flat-square&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://linkedin.com/in/yourlinkedin">
