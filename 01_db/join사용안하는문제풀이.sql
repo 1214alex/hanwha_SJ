@@ -1,0 +1,133 @@
+-- 1번
+SELECT
+		 *
+  FROM employee;
+  
+-- 2번
+SELECT
+		 EMP_NO
+		,EMP_NAME
+  FROM employee;
+  
+-- 3번
+SELECT
+		 EMP_ID
+		,EMP_NAME
+		,EMP_NO
+  FROM employee
+ WHERE EMP_ID = 201;
+ 
+-- 4번
+SELECT
+		 *
+  FROM employee
+ WHERE DEPT_CODE = 'D9';
+ 
+-- 5번
+SELECT
+		 *
+  FROM employee
+ WHERE JOB_CODE = 'J1';
+
+-- 6번
+SELECT
+		 EMP_ID
+		,EMP_NAME
+		,DEPT_CODE
+		,SALARY
+  FROM employee
+ WHERE SALARY >= 3000000;
+ 
+-- 7번
+SELECT
+		 EMP_NAME
+		,DEPT_CODE
+		,SALARY
+  FROM employee
+ WHERE DEPT_CODE = 'D6'
+ 	AND SALARY > 3000000;
+ 	
+-- 8번
+SELECT
+		 EMP_ID
+		,EMP_NAME
+		,SALARY
+		,BONUS
+  FROM employee
+ WHERE BONUS IS NULL;
+
+-- 9번
+SELECT
+		 EMP_ID
+		,EMP_NAME
+		,DEPT_CODE
+  FROM employee
+ WHERE DEPT_CODE != 'D9';
+ 
+-- 10번
+SELECT
+		 EMP_ID AS 사번
+		,EMP_NAME AS 이름
+		,HIRE_DATE AS 입사일
+  FROM employee
+ WHERE ENT_YN = 'N';
+ 
+-- 11번
+SELECT
+		 EMP_ID AS 사번
+		,EMP_NAME AS 이름
+		,SALARY AS 급여
+		,DEPT_CODE AS 부서코드
+		,JOB_CODE AS 직급코드
+  FROM employee
+ WHERE salary BETWEEN 3500000 AND 5500000;
+ 
+-- 12번
+SELECT
+		 EMP_ID
+		,EMP_NAME
+		,HIRE_DATE
+  FROM employee
+ WHERE EMP_NAME LIKE '김%';
+-- 13번
+SELECT
+		 EMP_ID
+		,EMP_NAME
+		,HIRE_DATE
+  FROM employee
+ WHERE EMP_NAME NOT LIKE '김%';
+ 
+-- 14번
+SELECT
+		 EMP_NAME
+		,EMP_NO
+		,DEPT_CODE 
+  FROM employee
+ WHERE EMP_NAME LIKE '%하%';
+-- 15번
+SELECT
+		 EMP_NAME
+		,SALARY
+		,JOB_CODE
+  FROM employee
+ WHERE JOB_CODE = 'J2' 
+ 	AND SALARY >= 2000000
+	 OR JOB_CODE - 'J7';
+	 
+-- 16번
+SELECT
+		 EMP_NAME
+		,SALARY
+		,JOB_CODE
+  FROM employee
+ WHERE JOB_CODE = 'J2'
+ 	 OR JOB_CODE = 'J7'
+ 	AND SALARY >= 2000000;
+-- 17번
+SELECT
+		 EMP_NAME
+		,SALARY
+		,JOB_CODE
+  FROM employee
+ WHERE JOB_CODE IN('J2', 'J7')
+ 	AND SALARY >= 2000000;
