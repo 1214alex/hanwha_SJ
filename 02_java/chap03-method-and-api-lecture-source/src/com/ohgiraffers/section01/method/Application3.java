@@ -22,7 +22,6 @@ public class Application3 {
         app3.testMethod(13);
         app3.testMethod(11);
         app3.testMethod('a');
-
         int local = 20;
         System.out.println(local);
         System.out.println("지역 변수: " + local);

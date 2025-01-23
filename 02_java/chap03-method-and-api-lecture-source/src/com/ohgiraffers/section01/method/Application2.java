@@ -16,7 +16,7 @@ public class Application2 {
         methodB();
         System.out.println("methodA() 종료됨...");
     }
-    public static void methodB(){
+    public void methodB(){
         System.out.println("methodB() 호출됨...");
         System.out.println("methodB() 종료됨...");
     }
