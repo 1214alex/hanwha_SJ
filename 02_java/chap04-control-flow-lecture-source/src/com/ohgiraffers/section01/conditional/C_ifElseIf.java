@@ -21,11 +21,11 @@ public class C_ifElseIf {
             System.out.println("오호~ 정직하구나~ 여기 있는 금도끼, 은도끼, 쇠도끼를 다 가져가거라!!");
         }
 
-
         System.out.println("그렇게 산신령은 다시 연못 속으로 홀연히 사라지고 말았다...");
     }
 
     public void testNestedIfElseIfStatement() {
+
         /* 설명.
          *  ohgiraffers 대학의 김XX 교수님은 학생들 시험 성적을 수기로 계산해서 학점 등급을 매기는
          *  채점방식을 사용하고 있다.
@@ -40,43 +40,32 @@ public class C_ifElseIf {
          * */
 
         Scanner sc = new Scanner(System.in);
-
-        System.out.print("점수를 입력하세요: ");
+        System.out.print("학생의 이름을 입력하세요: ");
+        String name = sc.nextLine();
+        System.out.print("학생의 점수를 입력하세요: ");
         int score = sc.nextInt();
+        String grade = "";
 
 
-        if (score >= 90 ){
-            if (score >= 95){
-                System.out.println("A+");
-            } else {
-                System.out.println("A");
-            }
-
-        } else if (score >= 80) {
-            if (score >= 85){
-                System.out.println("B+");
-            } else {
-                System.out.println("B");
-            }
-
-        }else if (score >= 70) {
-            if (score >= 75){
-                System.out.println("C+");
-            } else {
-                System.out.println("C");
-            }
-
-        }else if (score >= 60) {
-            if (score >= 65){
-                System.out.println("D+");
-            }else {
-                System.out.println("D");
-            }
-
-        }else {
-            System.out.println("F");
+        if (score >= 90) {
+            grade = "A";
+        } else if ( score >= 80 ) {
+            grade = "B";
+        } else if (score >= 70) {
+            grade = "C";
+        } else if (score >= 60) {
+            grade = "D";
         }
 
+        if (score < 0 || score > 100 ) {
+            System.out.println("점수를 잘못 입력하셨습니다.");
+        } else {
+            if(score % 10 >= 5 && score >= 60 || score == 100) {
+                grade = grade + "+";
+            }
+            System.out.println(name + " 학생의 점수는 " + score + "점이고, 등급은 " + grade + "입니다.");
+        }
+
+        System.out.println("프로그램을 종료합니다.");
     }
 }
-
