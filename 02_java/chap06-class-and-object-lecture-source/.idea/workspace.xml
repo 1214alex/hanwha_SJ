@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b2e730-e82a-4e51-84f2-0a281b9fab43" name="Changes" comment="객체를 이용한 배열까지" />
+    <list default="true" id="06b2e730-e82a-4e51-84f2-0a281b9fab43" name="Changes" comment="객체를 이용한 배열까지">
+      <change beforePath="$PROJECT_DIR$/../review-study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../review-study/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,31 +52,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Run",
-    "Application.Application2.executor": "Run",
-    "Application.com.ohgiraffers.section02.encapsulation.problem1.Application.executor": "Run",
-    "Application.com.ohgiraffers.section03.abstraction.Application.executor": "Run",
-    "Application.com.ohgiraffers.section04.constructer.Application.executor": "Run",
-    "Application.com.ohgiraffers.section04.dto.Application.executor": "Run",
-    "Application.com.ohgiraffers.section05.parameter.Application.executor": "Run",
-    "Application.com.ohgiraffers.section06.statickeyword.Application.executor": "Run",
-    "Application.com.ohgiraffers.section07.initblock.Application.executor": "Run",
-    "Application.com.ohgiraffers.section08.object_array.Application.executor": "Run",
-    "Application.com.ohgiraffers.section08.uses.Application.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "practice",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Application2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.ohgiraffers.section02.encapsulation.problem1.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.ohgiraffers.section03.abstraction.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.ohgiraffers.section04.constructer.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.ohgiraffers.section04.dto.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.ohgiraffers.section05.parameter.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.ohgiraffers.section06.statickeyword.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.ohgiraffers.section07.initblock.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.ohgiraffers.section08.object_array.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.ohgiraffers.section08.uses.Application.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;practice&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section06.singleton.Application" />
@@ -171,6 +173,7 @@
       <workItem from="1737708054480" duration="6000" />
       <workItem from="1737719662100" duration="30727000" />
       <workItem from="1738579366365" duration="10000" />
+      <workItem from="1738579475864" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="배열, 객체">
       <option name="closed" value="true" />
