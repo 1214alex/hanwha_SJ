@@ -24,7 +24,7 @@ public class Application {
 //        cClass.testSimpleIfElseIfStatement();
 
         /* 설명. 중첩 if-else문 흐름 확인용 메소드 호출*/
-//        cClass.testNestedIfElseIfStatement();
+        cClass.testNestedIfElseIfStatement();
 
         /* 설명. static 메소드로 switch문 흐름 확인용 메소드 호출*/
 //        D_switch.testSimpleSwitchStatement();
