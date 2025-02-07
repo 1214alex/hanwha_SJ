@@ -37,6 +37,9 @@ public class Application3 {
             /* 설명. 현재의 반복 회차 안에서 해당 토큰을 여러번 쓰고 싶으면 면수에 담아 쓰자. */
             String token = colorStringTokenizer.nextToken();
             System.out.println(token);
+            System.out.println(token);
+            System.out.println(token);
+            System.out.println(token);
         }
     }
 }
