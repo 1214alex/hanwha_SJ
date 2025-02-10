@@ -14,13 +14,13 @@ public class Application {
         mgt.setValue(new Date());
 
         /* 설명. Object로만 구성된 클래스는 타입의 안정성이 불안해진다. 하지만, 구현하기는 편리하다.*/
-        System.out.println(mgt.getValue().toString());
+//        System.out.println(mgt.getValue().toString());
         double dNum = (Double)mgt.getValue();               // 컴파일 에러가 아닌 런타임 에러가 발생하는 위험한 구문
 
 
 
 //        GenericTest<Integer> gt1 = new GenericTest<Integer>();
-        GenericTest<Integer> gt1 = new GenericTest<>();         // 다이아몬드 연산자는 한번만 타입까지 저장하면 된다.
+        GenericTest<Integer> gt1 = new GenericTest<>();         // 다이아몬드 연산자는 한번만 타입까지 작성하면 된다.
         gt1.getValue();         //다이아몬드 연산자 안의 참조자료형을 반환하게 되는 것을 확인할 수 있다.
 //        gt1.setValue(3.14);     //타입의 안정성이 높다!(다이아몬드 연산자인 참조자료형을 위반하지 않는다.)
 
