@@ -1,6 +1,6 @@
 package com.ohgiraffers.section01.extend;
 
-public class Car /*extends Object*/{
+public class Car{
 
     private boolean runingStatus;
 
