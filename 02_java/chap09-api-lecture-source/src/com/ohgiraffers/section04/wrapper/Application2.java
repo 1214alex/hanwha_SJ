@@ -14,6 +14,7 @@ public class Application2 {
         char c = "abc".charAt(0);           // Character는 메소드가 제공되지 않아 String의 charAt()을 활용
 
         /* 설명. 코테 문제 풀 때는 아래와 같은 형태가 속도가 미흡하지만 더 빠를 수 있다.*/
+        /* 설명. (반환형이 바로 기본자료형이라 오토 언박싱을 거치지 않기 때문이다)*/
         byte b2 = Byte.parseByte("1");
         short s2 = Short.parseShort("2");
         int i2 = Integer.parseInt("4");
